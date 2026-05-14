@@ -13,10 +13,10 @@ header {
   width: 68px;
   height: 64px;
 }
-.logo-mobile{
+.img-mobile{
   display: block;
 }
-.logo-desktop{
+.img-desktop{
   display: none;
 }
 .navigation-menu {
