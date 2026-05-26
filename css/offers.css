@@ -1,15 +1,13 @@
-.offers div {
-}
 .section-title h2 {
-  margin: 0;
-  font-size: 32px;
-  width: var(--title-weight);
-  text-align: center;
+    font-size: 32px;
+    font-weight: var(--title-weight);
+    margin: 0;
+    text-align: center;
 }
 .section-title hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--primary-color);
-  margin: 16px auto 32px;
-  border: 0;
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px auto 32px;
 }
