@@ -1,13 +1,43 @@
 .section-title h2 {
-    font-size: 32px;
-    font-weight: var(--title-weight);
-    margin: 0;
-    text-align: center;
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
 }
 .section-title hr {
-    width: 180px;
-    height: 4px;
-    background-color: var(--secondary-color);
-    border: none;
-    margin: 16px auto 32px;
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+.card {
+  background-color: wheat;
+  width: 312px;
+  height: 288px;
+  color: var(--text-secondary-color);
+  position: static;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  margin: 32px auto;
+    text-align: center;
+}
+.card header {
+  display: block;
+  padding: 24px 16px;
+}
+.card header p{
+    font-weight: var(--text-weight);
+  font-size: 20px;
+}
+.card header h3{
+    font-weight: var(--title-weight);
+    font-size: 40px;
+    margin-top: 8px;
+}
+.card header h3 span{
+    font-size: 32px;
+    margin-top: 24px;  
+    display: inline-block;
 }
