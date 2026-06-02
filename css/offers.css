@@ -26,6 +26,7 @@
 .card header {
   display: block;
   padding: 0;
+  margin-bottom: 24px;
 }
 .card header p{
     font-weight: var(--text-weight);
@@ -40,22 +41,4 @@
     font-size: 32px;
     margin-top: 24px;  
     display: inline-block;
-}
-.card footer a {
-   display: block;
-   text-decoration: none;
-   color: var(--text-secondary-color);
-   width: 280px;
-   height: 64px;
-   background-color: var(--primary-color);
-   font-size: 20px;
-   font-weight: var(--title-weight);
-   border-radius: 8px;
-   line-height: 32px;
-   margin: 24px 0;
-   box-sizing: border-box;
-   padding: 16px 74px;
-}
-.card footer a:hover{
-    background-color: var(--secondary-color);
 }
