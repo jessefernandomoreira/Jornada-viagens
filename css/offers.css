@@ -20,13 +20,13 @@
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
-  margin: 32px auto;
   text-align: center;
 }
 .card header {
   display: block;
   padding: 0;
   margin-bottom: 24px;
+  background: none;
 }
 .card header p {
   font-weight: var(--text-weight);
@@ -41,6 +41,22 @@
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+}
+.card.japao {
+  background: url(../img/bd-card-japao.jpg) no-repeat;
+  background-size: cover;
+}
+.card.san-andreas {
+  background: url(../img/bd-card-san-andreas.jpg) no-repeat;
+  background-size: cover;
+}
+.card.paraiba {
+  background: url(../img/bd-card-paraiba.jpg) no-repeat;
+  background-size: cover;
+}
+.card.manaus {
+  background: url(../img/bd-card-manaus.jpg) no-repeat;
+  background-size: cover;
 }
 @media screen and (min-width: 1024px) {
   .card {
