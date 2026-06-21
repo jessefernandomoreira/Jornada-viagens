@@ -1,0 +1,31 @@
+.destination-items .item .img-item{
+    width: 100%;
+    height: 360px;
+    margin-bottom: 24px;
+}
+.destination-items .item{
+    margin: 0 24px;
+}
+.destination-items .item header{
+  display: block;
+  padding: 0;
+  margin-bottom: 24px;
+  background: none;
+}
+.destination-items .item header h4{
+    font-size: 28px;
+}
+.destination-items .item p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.img-item.img-tokyo{
+    background: url(../img/destin-tokyo.jpg) no-repeat;
+    background-size: cover;
+}
+.img-item.img-osaka{
+    background: url(../img/destin-osaka.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
